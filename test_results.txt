@@ -180,3 +180,71 @@ Epoch 80/200, Average Training Set Loss: 0.551018
 Epoch 80/200, Average Test Set Loss: 0.778321
 Epoch 90/200, Average Training Set Loss: 0.546445
 Epoch 90/200, Average Test Set Loss: 0.793040
+---------------------------------------------------
+T = 15
+lr = 0.005
+batch_size = 64
+epochs = 200
+clip_value = 5
+hidden_neurons = 64
+drop_rate = 0.2
+l2 = 0.0005
+
+Epoch 1/200, Average Training Set Loss: 1.143376
+Epoch 1/200, Average Test Set Loss: 0.893225
+Epoch 10/200, Average Training Set Loss: 1.442870
+Epoch 10/200, Average Test Set Loss: 1.528867
+Epoch 20/200, Average Training Set Loss: 1.445954
+Epoch 20/200, Average Test Set Loss: 1.536478
+---------------------------------------------------
+T = 15
+lr = 0.001
+batch_size = 64
+epochs = 200
+clip_value = 5
+hidden_neurons = 64
+drop_rate = 0.25
+l2 = 0.001
+
+Epoch 1/200, Average Training Set Loss: 1.540552
+Epoch 1/200, Average Test Set Loss: 1.330840
+Epoch 10/200, Average Training Set Loss: 1.462900
+Epoch 10/200, Average Test Set Loss: 1.512209
+-----------------------------------------------------
+T = 15
+lr = 0.001
+batch_size = 64
+epochs = 200
+clip_value = 5
+hidden_neurons = 32
+drop_rate = 0.1
+l2 = 0.0001
+
+*** Best performing hyperparameters *** Took 2h 15m to train.
+
+Epoch 1/200, Average Training Set Loss: 1.416256
+Epoch 1/200, Average Test Set Loss: 1.213155
+Epoch 10/200, Average Training Set Loss: 0.717571
+Epoch 10/200, Average Test Set Loss: 0.712894
+Epoch 20/200, Average Training Set Loss: 0.663985
+Epoch 20/200, Average Test Set Loss: 0.662613
+Epoch 30/200, Average Training Set Loss: 0.628958
+Epoch 30/200, Average Test Set Loss: 0.652753
+Epoch 40/200, Average Training Set Loss: 0.602552
+Epoch 40/200, Average Test Set Loss: 0.637300
+Epoch 50/200, Average Training Set Loss: 0.580026
+Epoch 50/200, Average Test Set Loss: 0.616919
+Epoch 60/200, Average Training Set Loss: 0.563549
+Epoch 60/200, Average Test Set Loss: 0.596875
+Epoch 70/200, Average Training Set Loss: 0.550089
+Epoch 70/200, Average Test Set Loss: 0.593361
+Epoch 80/200, Average Training Set Loss: 0.540576
+Epoch 80/200, Average Test Set Loss: 0.572806
+Epoch 90/200, Average Training Set Loss: 0.534430
+Epoch 90/200, Average Test Set Loss: 0.568479
+Epoch 100/200, Average Training Set Loss: 0.528970
+Epoch 100/200, Average Test Set Loss: 0.555297
+Epoch 110/200, Average Training Set Loss: 0.524536
+Epoch 110/200, Average Test Set Loss: 0.567000
+Epoch 120/200, Average Training Set Loss: 0.520364
+Epoch 120/200, Average Test Set Loss: 0.564020

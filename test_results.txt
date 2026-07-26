@@ -360,6 +360,8 @@ hidden_neurons = 48
 drop_rate = 0.15
 l2 = 0.0002
 
+    ** GOOD CONFIG **
+
 Epoch 1/200, Average Training Set Loss: 1.395946
 Epoch 1/200, Average Validation Set Loss: 1.142748
 Epoch 10/200, Average Training Set Loss: 0.665458
@@ -386,3 +388,50 @@ Epoch 100/200, Average Training Set Loss: 0.480631
 Epoch 100/200, Average Validation Set Loss: 0.510352
 Epoch 110/200, Average Training Set Loss: 0.470257
 Epoch 110/200, Average Validation Set Loss: 0.504405
+-------------------------------------------------------
+T = 15
+lr = 0.001
+batch_size = 64
+epochs = 200
+clip_value = None
+clip_norm = 5
+hidden_neurons = 32
+drop_rate = 0.1
+l2 = 0.0001
+
+Epoch 1/200, Average Training Set Loss: 1.380284
+Epoch 1/200, Average Validation Set Loss: 1.202968
+Epoch 10/200, Average Training Set Loss: 0.687090
+Epoch 10/200, Average Validation Set Loss: 0.708252
+Epoch 20/200, Average Training Set Loss: 0.635124
+Epoch 20/200, Average Validation Set Loss: 0.673895
+Epoch 30/200, Average Training Set Loss: 0.605527
+Epoch 30/200, Average Validation Set Loss: 0.650228
+Epoch 40/200, Average Training Set Loss: 0.577875
+Epoch 40/200, Average Validation Set Loss: 0.620158
+Epoch 50/200, Average Training Set Loss: 0.554650
+Epoch 50/200, Average Validation Set Loss: 0.585561
+Epoch 60/200, Average Training Set Loss: 0.539663
+Epoch 60/200, Average Validation Set Loss: 0.568085
+Epoch 61: Reducing LR to 0.000500
+Epoch 70/200, Average Training Set Loss: 0.531036
+Epoch 70/200, Average Validation Set Loss: 0.564492
+Epoch 80/200, Average Training Set Loss: 0.525439
+Epoch 80/200, Average Validation Set Loss: 0.565654
+Epoch 90/200, Average Training Set Loss: 0.520791
+Epoch 90/200, Average Validation Set Loss: 0.567913
+Epoch 91: Reducing LR to 0.000250
+Epoch 100/200, Average Training Set Loss: 0.517504
+Epoch 100/200, Average Validation Set Loss: 0.563006
+Epoch 110/200, Average Training Set Loss: 0.514927
+Epoch 110/200, Average Validation Set Loss: 0.563282
+Epoch 120/200, Average Training Set Loss: 0.512446
+Epoch 120/200, Average Validation Set Loss: 0.558993
+Epoch 121: Reducing LR to 0.000125
+Epoch 130/200, Average Training Set Loss: 0.511127
+Epoch 130/200, Average Validation Set Loss: 0.561061
+Epoch 140/200, Average Training Set Loss: 0.510257
+Epoch 140/200, Average Validation Set Loss: 0.560869
+Epoch 150/200, Average Training Set Loss: 0.509814
+Epoch 150/200, Average Validation Set Loss: 0.558546
+Epoch 151: Reducing LR to 0.000063
